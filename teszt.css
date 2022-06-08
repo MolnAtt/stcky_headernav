@@ -14,7 +14,6 @@ header nav {
     width: 50vw;
     margin: 0 auto;
     background-color: blueviolet;
-    height: 50px; /* fontos, hogy fix legyen, mert ki lesz ragadva innét, és pótolni kell a helyet*/
     display:grid;
     align-content:center;
 }

@@ -16,7 +16,7 @@ function pseudo_selector_stuck(){
 
 function beragadaskor(e){
     const b = e.intersectionRatio < 1;
-    e.target.classList.toggle("elvesztette-a-ragadost", b);
+    e.target.classList.toggle("nav-helypotlas", b);
     let r = e.target.firstElementChild.classList.toggle("stuck", b);
     console.log("beragadt vagy levált");
     return r;

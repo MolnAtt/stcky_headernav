@@ -3,6 +3,13 @@
     top:0;
 }
 
-.elvesztette-a-ragadost{
-    padding-bottom: 50px; /*beragadáskor kikerül az elemből és ennyi hely fog hiányozni.*/
+:root{
+    --navmagassag: 50px;
+}
+.nav-helypotlas{
+    padding-bottom: var(--navmagassag); /*beragadáskor kikerül az elemből a nav, ezért ennyi hely fog hiányozni, amit pótolni kell.*/
+}
+
+header nav {
+    height: var(--navmagassag); /* most úgy oldottuk meg, hogy fix legyen, mert ki lesz ragadva innét, és pótolni kell a helyet*/
 }
