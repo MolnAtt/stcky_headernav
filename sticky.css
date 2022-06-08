@@ -1,0 +1,8 @@
+.stuck{
+    position:fixed;
+    top:0;
+}
+
+.elvesztette-a-ragadost{
+    padding-bottom: 50px; /*beragadáskor kikerül az elemből és ennyi hely fog hiányozni.*/
+}
